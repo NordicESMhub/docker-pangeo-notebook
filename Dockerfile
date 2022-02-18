@@ -1,5 +1,5 @@
 # Jupyter container used for Galaxy IPython (+other kernels) Integration
-FROM pangeo/pangeo-notebook:1c0f66b
+FROM pangeo/pangeo-notebook:2022.02.04
 
 MAINTAINER Anne Fouilloux, annefou@geo.uio.no
 
