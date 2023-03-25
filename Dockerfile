@@ -1,7 +1,7 @@
 # Jupyter container used for Galaxy IPython (+other kernels) Integration
-FROM pangeo/pangeo-notebook:2022.02.04
+FROM pangeo/pangeo-notebook:2023.02.27
 
-MAINTAINER Anne Fouilloux, annefou@geo.uio.no
+MAINTAINER Anne Fouilloux, annef@simula.no
 
 ENV DEBIAN_FRONTEND noninteractive
 
