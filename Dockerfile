@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 USER root
 
 RUN apt-get -qq update && apt-get install --no-install-recommends -y libcurl4-openssl-dev libxml2-dev \
-    apt-transport-https python-dev libc-dev pandoc pkg-config liblzma-dev libbz2-dev libpcre3-dev \
+    apt-transport-https python-dev-is-python3 libc-dev pandoc pkg-config liblzma-dev libbz2-dev libpcre3-dev \
     build-essential libblas-dev liblapack-dev gfortran libzmq3-dev libyaml-dev libxrender1 fonts-dejavu \
     libfreetype6-dev libpng-dev net-tools procps libreadline-dev wget software-properties-common octave \
     ca-certificates wget vim subversion sshfs openssh-client \
